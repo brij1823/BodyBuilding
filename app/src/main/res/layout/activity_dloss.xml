@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.dloss"
+    android:orientation="vertical"
+    android:background="@color/gray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/diet"
+         android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Narrow It Down!"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:src="@color/green" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Vegetarian?"
+               android:layout_marginTop="55dp"
+               android:textStyle="bold"
+               android:layout_marginLeft="150dp"
+               />
+           <CheckBox
+               android:id="@+id/checkBox"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginLeft="50dp"
+               android:layout_marginTop="44dp"
+               android:text="" />
+
+
+       </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="120dp"
+            android:src="@color/orange"/>
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:text="Non-Vegetarian!"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="130dp"
+                />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="50dp"
+            android:layout_marginLeft="48dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="34dp"
+            android:text="" />
+        </RelativeLayout>
+
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Whats  Your Budget?"
+              android:layout_marginTop="30dp"
+              android:textStyle="bold"
+              android:textSize="20dp"/>
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="200dp"
+              android:layout_marginTop="25dp"
+              android:id="@+id/budget"/>
+         </RelativeLayout>
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/blue"
+            android:text="GO!"
+            android:textSize="30dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.aa"
+    android:theme="@style/AppTheme5"
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/ggif"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/incline"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="INCLINE PUSH-UPS"
+        android:layout_marginLeft="55dp"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The higher the platform you use for the incline, the easier the incline push-up is to complete. A kitchen counter push-up is much more manageable than a push-up done with your hands on a low stair step."
+
+/></ScrollView>
+
+
+</LinearLayout>

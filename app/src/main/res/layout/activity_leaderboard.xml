@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.sanketpatel.bodybuilding.leaderboard">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/winwal"
+        android:layout_marginTop="45dp"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/wrote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="CHECK YOUR STRENGTH!"/>
+    <Button
+        android:id="@+id/bu1"
+        android:text="CORE CIRCUIT CHALLENGE"
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/orange"/>
+    <Button
+        android:id="@+id/bu2"
+        android:text="FITNESS CHALLENGE CIRCUIT"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+
+        android:id="@+id/bu3"               
+        android:text="PUSH UP LEADERBOARD"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"/>
+
+    
+
+
+
+</LinearLayout>

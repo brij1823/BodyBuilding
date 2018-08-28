@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">BodyBuilding</string>
+
+    <string-array name="excercise">
+        <item>Full Body</item>
+        <item>Chest</item>
+        <item>Abs</item>
+        <item>Shoulder and Back</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="country">
+        <item>Choose your plan</item>
+        <item>Diet</item>
+        <item>Role-Model</item>
+        <item>Success story</item>
+        <item>Before-After</item>
+        <item>Everyday gallery</item>
+        <item>LeaderBoard</item>
+        <item>FORM FILLING</item>
+    </string-array>
+    <string name="title_activity_beast">beastActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="head1">Weight-Loss</string>
+    <string-array name="bchest">
+        <item>JUMPING JACK</item>
+        <item>INCLINE PUSH-UPS</item>
+        <item>PUSH-UPS</item>
+        <item>KNEE PUSH-UPS</item>
+        <item>WIDE ARM PUSH-UPS</item>
+        <item>BOX PUSH UPS</item>
+        <item>HINDU PUSH-UPS</item>
+        <item>COBRA STRECH</item>
+        <item>CHEST STRECH</item>
+    </string-array>
+    <string-array name="ichest">
+        <item>JUMPING JACK</item>
+        <item>PUSH-UPS</item>
+        <item>KNEE PUSH-UPS</item>
+        <item>WIDE ARM PUSH-UPS</item>
+        <item>HINDU PUSH-UPS</item>
+        <item>STAGGERED PUSH-UPS</item>
+        <item>PUSH-UP AND ROTATION</item>
+        <item>KNEE PUSHUPS</item>
+        <item>DECLINE PUSHUPS</item>
+        <item>STAGGERED PUSHUPS</item>
+        <item>COBRA STRETCH</item>
+        <item>CHEST STRETCH</item>
+    </string-array>
+    <string-array name="echest">
+        <item>JUMPING JACK</item>
+        <item>ARM-CIRCLES</item>
+        <item>DIAMOND PUSHUPS</item>
+        <item>BURPEES</item>
+        <item>HINDU PUSH-UPS</item>
+        <item>STAGGERED PUSH-UPS</item>
+        <item>PUSH-UP AND ROTATION</item>
+        <item>SPIDERMAN PUSHUPS</item>
+        <item>STAGGERED PUSHUPS</item>
+        <item>DECLINE PUSHUPS</item>
+        <item>COBRA STRETCH</item>
+        <item>CHEST STRETCH</item>
+
+    </string-array>
+    <string-array name="abs">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="iabs">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="eabs">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="back">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="iback">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="eback">
+        <item>JUMPING JACK</item>
+        <item>ABSOMINAL CRUNCHES</item>
+        <item>RUSSIAN TWIST</item>
+        <item>MOUNTAIN CLIMBER</item>
+        <item>HEEL TOUCH</item>
+        <item>LEG RAISES</item>
+        <item>PLANK</item>
+        <item>COBRA STRETCH</item>
+    </string-array>
+    <string-array name="toppers">
+        <item>Mr. Rajesh</item>
+        <item>Mr. Brij</item>
+        <item>Mr. Kamal</item>
+    </string-array>
+    <string-array name="top">
+        <item>Mr Krupal</item>
+        <item>Mr Kamlesh</item>
+        <item>Mr Raja</item>
+        <item>Mr Roshan</item>
+        <item>Mr Amjad</item>
+    </string-array>
+
+
+</resources>

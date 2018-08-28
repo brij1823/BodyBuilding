@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.bb"
+    android:theme="@style/AppTheme5"
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/ggif"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/push"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="PUSH-UPS"
+        android:layout_marginLeft="55dp"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When you're ready to build strength and develop a tight and toned upper body and core, look no further than the push-up. The push-up requires no gym membership, no fancy equipment and is an effective exercise for everyone from newbies to heavy lifters."
+
+
+            /></ScrollView>
+
+
+</LinearLayout>

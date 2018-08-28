@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.sanketpatel.bodybuilding.gallery">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Click on the camera to click picture"
+      android:layout_marginTop="45dp"
+      android:textSize="20dp"
+      android:textColor="@color/white"/>
+
+  <ImageButton
+      android:id="@+id/button1"
+      android:layout_marginLeft="65dp"
+      android:layout_marginTop="100dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/camera"
+      android:background="@null"
+      android:text="Click!" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:layout_marginTop="30dp"
+      android:text="* Image will be saved in Internal memory under the name of Folder BODY-BUILDING "/>
+
+
+  
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:visibility="invisible"/>
+
+</LinearLayout>

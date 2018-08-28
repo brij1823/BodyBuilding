@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.jj"
+    android:theme="@style/AppTheme5"
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/ggif"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/jumping"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="JUMPING JACK"
+        android:layout_marginLeft="55dp"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The primary benefit from doing jumping jacks is that it elevates your heart rate. You breathe more deeply while jumping, which delivers oxygen to your bloodstream and ultimately to your muscles. You burn fat at a rapid rate, promoting weight loss. If you weigh 130 lbs. and do vigorous jumping jacks or other calisthenics, you burn 472 calories per hour. If you weight 155 lbs. you burn 563 calories per hour, if you weigh 180 lbs. you burn 654 calories, and if you weigh 205 lbs. you burn 745 calories.
+
+"/></ScrollView>
+
+
+</LinearLayout>

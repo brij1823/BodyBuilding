@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sanketpatel.bodybuilding.counter">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:text="Place your phone just below your chest and blast off ..we will count number of pushups!"
+    android:textSize="20sp"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="30dp"
+     android:text="COUNTS"
+     android:textAlignment="center"
+     android:textSize="25dp"
+     android:textStyle="bold" />
+  <TextView
+      android:id="@+id/write"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:textSize="100sp"/>
+
+</LinearLayout>

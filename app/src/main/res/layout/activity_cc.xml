@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.cc"
+    android:theme="@style/AppTheme5"
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/ggif"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/knee"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="KNEE PUSH-UPS"
+        android:layout_marginLeft="55dp"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A knee push-up is a gentler alternative that can help you develop strength, allowing you to work yourself up to the level of fitness necessary for a full push-up."
+
+
+
+            /></ScrollView>
+
+
+</LinearLayout>

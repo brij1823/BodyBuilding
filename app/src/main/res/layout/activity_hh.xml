@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanketpatel.bodybuilding.hh"
+    android:theme="@style/AppTheme5"
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/ggif"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/cheststretch"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="CHEST-STRETCH"
+        android:layout_marginLeft="55dp"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doing pushups with hands wide apart aren't necessarily better than any other type of pushup. The wider apart your hands are while doing pushups, the more you use your chest muscles; the closer together your hands are, the more you use your triceps (arms).
+"
+
+
+            /></ScrollView>
+
+
+</LinearLayout>

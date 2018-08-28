@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+
+            <TextView
+                android:id="@+id/text0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Choose your WorkOut Plan"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/graywall">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Full Body"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/fullbody"
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/lpush" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Chest"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@color/gray"
+                    android:id="@+id/chesty"
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/lchest1" />
+
+                <ImageButton
+                    android:id="@+id/chesti"
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lchesti" />
+                <ImageButton
+                    android:id="@+id/echest"
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="320dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lexpert" />
+
+                <!--</LinearLayout>-->
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Abs"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:id="@+id/abs"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/labs" />
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/labsi" />
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="320dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lexp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="15dp"
+                app:cardCornerRadius="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Shoulder-Back"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+
+                    android:src="@drawable/roundshoulder" />
+
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="190dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rbacki" />
+                <ImageButton
+                    android:layout_width="350dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="320dp"
+                    android:background="@color/gray"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/leb" />
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sanketpatel.bodybuilding">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fin"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chestinter$login"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".excercise"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".beastActivity"
+            android:label="@string/title_activity_beast"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".second"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".weightloss"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Success"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".hundred"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Full"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".chest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Main3Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".jj"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5"
+            />
+        <activity android:name=".chestinter"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Loginn"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".gallery"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".delete"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".loss"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".gain"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".built"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".dloss"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".aa"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".bb"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".cc"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".dd"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".ee"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".ff"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".gg"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".hh"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".staggered"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".pushuprotation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".decline"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity android:name=".expert" />
+        <activity
+            android:name=".arm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".diamond"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".burpees"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity android:name=".spider"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".suces"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".leaderboard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".circuitchallenge"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".medalist"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Forms"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".timer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme5" />
+        <activity android:name=".babs"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".counter"
+            android:theme="@style/AppTheme5"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
